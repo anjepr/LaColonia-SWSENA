@@ -19,10 +19,10 @@ public class GestionPersona implements GestionPersonalInterface{
     public GestionPersona() {
     
         datos=new ArrayList<>();
-        Persona P1 = new Persona(1,"cc","Andres","Sebastian","Parra","Bocanegra");
-        Persona P2 = new Persona(2,"cc","Dayuby","Yuraine","Games","Guerrero");
-        Persona P3 = new Persona(3,"cc","Yuri","Viviana","Patiño","Casas");
-        Persona P4 = new Persona(4,"cc","Julian","Armando","Cuellar","Villa");
+        Persona P1 = new Persona(1,"cc","Diego","Alejandro","Pinzon","Londoño");
+        Persona P2 = new Persona(2,"cc","Angie","Katalina","Pelaez","Cabezas");
+        Persona P3 = new Persona(3,"cc","Ana","Rubiela","Ramirez","Velasquez");
+        Persona P4 = new Persona(4,"cc","Jhon","Jairo","Pelaez","Perez");
     
         datos.add(P1);
         datos.add(P2);
