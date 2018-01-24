@@ -9,17 +9,17 @@ package Modelo;
  *
  * @author fragata
  */
-public class Destinos {
-    private int numenvio;
-    private String lugarEnvio;
-    private String lugarDestino;
-    private String Tiempopromedio;
-    private String importancia;
+public class Empleado {
+    private int numidentificacion;
+    private String nombres;
+    private String apellidos;
+    private String direccion;
+    private String telefonos;
 
-    public Destinos() {
+    public Empleado() {
     }
 
-    public Destinos(int numenvio, String lugarEnvio, String lugarDestino, String Tiempopromedio, String importancia) {
+    public Empleado(int numenvio, String lugarEnvio, String lugarDestino, String Tiempopromedio, String importancia) {
         this.numenvio = numenvio;
         this.lugarEnvio = lugarEnvio;
         this.lugarDestino = lugarDestino;
