@@ -15,58 +15,66 @@ public class Empleado {
     private String apellidos;
     private String direccion;
     private String telefonos;
+    private String email;
 
     public Empleado() {
     }
 
-    public Empleado(int numenvio, String lugarEnvio, String lugarDestino, String Tiempopromedio, String importancia) {
-        this.numenvio = numenvio;
-        this.lugarEnvio = lugarEnvio;
-        this.lugarDestino = lugarDestino;
-        this.Tiempopromedio = Tiempopromedio;
-        this.importancia = importancia;
+    public Empleado(int numidentificacion, String nombres, String apellidos, String direccion, String telefonos,String email) {
+        this.numidentificacion = numidentificacion;
+        this.nombres = nombres;
+        this.apellidos = apellidos;
+        this.direccion = direccion;
+        this.telefonos = telefonos;
+        this.email = email;
     }
 
-    public String getImportancia() {
-        return importancia;
+    public int getNumidentificacion() {
+        return numidentificacion;
     }
 
-    public void setImportancia(String importancia) {
-        this.importancia = importancia;
+    public String getNombres() {
+        return nombres;
     }
 
-    public String getLugarDestino() {
-        return lugarDestino;
+    public String getApellidos() {
+        return apellidos;
     }
 
-    public void setLugarDestino(String lugarDestino) {
-        this.lugarDestino = lugarDestino;
+    public String getDireccion() {
+        return direccion;
     }
 
-    public String getLugarEnvio() {
-        return lugarEnvio;
+    public String getTelefonos() {
+        return telefonos;
     }
 
-    public void setLugarEnvio(String lugarEnvio) {
-        this.lugarEnvio = lugarEnvio;
+    public String getEmail() {
+        return email;
     }
 
-    public int getNumenvio() {
-        return numenvio;
+    public void setNumidentificacion(int numidentificacion) {
+        this.numidentificacion = numidentificacion;
     }
 
-    public void setNumenvio(int numenvio) {
-        this.numenvio = numenvio;
+    public void setNombres(String nombres) {
+        this.nombres = nombres;
     }
 
-    public String getTiempopromedio() {
-        return Tiempopromedio;
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
     }
 
-    public void setTiempopromedio(String Tiempopromedio) {
-        this.Tiempopromedio = Tiempopromedio;
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
     }
+
+    public void setTelefonos(String telefonos) {
+        this.telefonos = telefonos;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     
-    
-    
-}
