@@ -87,8 +87,10 @@ public class Empleado extends javax.swing.JFrame {
 
         jTextField8.setText("jTextField8");
 
+        jButton1.setForeground(new java.awt.Color(0, 51, 204));
         jButton1.setText("REGISTRAR");
 
+        jButton2.setForeground(new java.awt.Color(204, 0, 204));
         jButton2.setText("MODIFICAR");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
