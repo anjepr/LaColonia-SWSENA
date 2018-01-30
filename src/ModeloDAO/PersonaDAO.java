@@ -9,7 +9,7 @@ package ModeloDAO;
  *
  * @author fragata
  */
-public class PersonaDAOImpl implements PersonaDAOInterface{
+public class PersonaDAO implements PersonaDAOInterface{
 
     @Override
     public Boolean Registrar(PersonaDAOImpl pd) {
