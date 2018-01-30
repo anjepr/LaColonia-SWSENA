@@ -5,7 +5,7 @@
  */
 package controlador;
 
-import ModeloDAO.Empleado;
+import Modelo.Empleado;
 
 /**
  *
