@@ -35,6 +35,6 @@ public connection crearConexion() {
     
     try {
         Class.forName(Driver);
-        conexion 
+        conexion = DriverManager:getconnection(URL,USER,PASSWORD)
     }
 }

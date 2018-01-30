@@ -76,5 +76,7 @@ public class Empleado {
     public void setEmail(String email) {
         this.email = email;
     }
+    
+}
 
     
