@@ -12,12 +12,12 @@ package ModeloDAO;
 public class PersonaDAO implements PersonaDAOInterface{
 
     @Override
-    public Boolean Registrar(PersonaDAOImpl pd) {
+    public Boolean Registrar(PersonaDAO pd) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public Boolean Actualizar(PersonaDAOImpl pd) {
+    public Boolean Actualizar(PersonaDAO pd) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
@@ -27,7 +27,7 @@ public class PersonaDAO implements PersonaDAOInterface{
     }
 
     @Override
-    public PersonaDAOImpl Buscar(Integer identificacion) {
+    public PersonaDAO Buscar(Integer identificacion) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
