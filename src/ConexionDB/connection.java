@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Conexion;
+package ConexionDB;
 
 /**
  *
  * @author fragata
  */
-public class Conexion {
+class connection {
     
 }
