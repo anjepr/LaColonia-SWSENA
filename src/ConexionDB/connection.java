@@ -5,6 +5,10 @@
  */
 package ConexionDB;
 
+import java.sql.connection;
+import java.sql.DriverManager;
+
+
 /**
  *
  * @author fragata
