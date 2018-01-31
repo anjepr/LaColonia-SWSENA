@@ -10,6 +10,10 @@ package vista;
  * @author fragata
  */
 public class Usuariojf extends javax.swing.JFrame {
+    private Component confirmation;
+    private String usuario,contraseña;
+    public Usuariojf() {
+    
 
     /**
      * Creates new form Usuariojf
@@ -29,8 +33,8 @@ public class Usuariojf extends javax.swing.JFrame {
 
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextPane1 = new javax.swing.JTextPane();
-        btnaceptar = new javax.swing.JButton();
         btncancelar = new javax.swing.JButton();
+        btningresar = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -41,18 +45,6 @@ public class Usuariojf extends javax.swing.JFrame {
 
         jScrollPane1.setViewportView(jTextPane1);
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        btnaceptar.setForeground(new java.awt.Color(0, 153, 0));
-        btnaceptar.setText("ACEPTAR");
-        btnaceptar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnaceptarActionPerformed(evt);
-            }
-        });
-        getContentPane().add(btnaceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(63, 368, -1, -1));
-
         btncancelar.setForeground(new java.awt.Color(255, 0, 0));
         btncancelar.setText("CANCELAR");
         btncancelar.addActionListener(new java.awt.event.ActionListener() {
@@ -60,7 +52,18 @@ public class Usuariojf extends javax.swing.JFrame {
                 btncancelarActionPerformed(evt);
             }
         });
-        getContentPane().add(btncancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 368, -1, -1));
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        btningresar.setForeground(new java.awt.Color(0, 153, 51));
+        btningresar.setText("INGRESAR");
+        btningresar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btningresarActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btningresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 270, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Tunga", 3, 14)); // NOI18N
         jLabel2.setText("USUARIO");
@@ -101,9 +104,9 @@ public class Usuariojf extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtusuarioActionPerformed
 
-    private void btnaceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnaceptarActionPerformed
+    private void btningresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btningresarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btnaceptarActionPerformed
+    }//GEN-LAST:event_btningresarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -141,8 +144,8 @@ public class Usuariojf extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnaceptar;
     private javax.swing.JButton btncancelar;
+    private javax.swing.JButton btningresar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
