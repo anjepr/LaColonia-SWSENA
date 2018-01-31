@@ -35,9 +35,9 @@ public class Usuariojf extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         txtusuario = new javax.swing.JTextField();
-        txtcontraseña = new javax.swing.JTextField();
+        jLabelcontraseña = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
+        jPasswordField1 = new javax.swing.JPasswordField();
 
         jScrollPane1.setViewportView(jTextPane1);
 
@@ -46,6 +46,11 @@ public class Usuariojf extends javax.swing.JFrame {
 
         btnaceptar.setForeground(new java.awt.Color(0, 153, 0));
         btnaceptar.setText("ACEPTAR");
+        btnaceptar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnaceptarActionPerformed(evt);
+            }
+        });
         getContentPane().add(btnaceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(63, 368, -1, -1));
 
         btncancelar.setForeground(new java.awt.Color(255, 0, 0));
@@ -59,7 +64,7 @@ public class Usuariojf extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Tunga", 3, 14)); // NOI18N
         jLabel2.setText("USUARIO");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(44, 158, -1, 24));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, 24));
 
         jLabel3.setFont(new java.awt.Font("Tunga", 3, 24)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 0, 204));
@@ -68,7 +73,7 @@ public class Usuariojf extends javax.swing.JFrame {
 
         jLabel4.setFont(new java.awt.Font("Tunga", 3, 12)); // NOI18N
         jLabel4.setText("CONTRASEÑA");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(44, 221, 76, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 210, 76, -1));
 
         txtusuario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -76,14 +81,14 @@ public class Usuariojf extends javax.swing.JFrame {
             }
         });
         getContentPane().add(txtusuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(136, 159, 151, -1));
-        getContentPane().add(txtcontraseña, new org.netbeans.lib.awtextra.AbsoluteConstraints(136, 220, 151, -1));
+
+        jLabelcontraseña.setIcon(new javax.swing.ImageIcon(getClass().getResource("/vista/tetragramaton.png"))); // NOI18N
+        jLabelcontraseña.setText("jLabel5");
+        getContentPane().add(jLabelcontraseña, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 580, 440));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/vista/santam.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 0, 290, 490));
-
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/vista/tetragramaton.png"))); // NOI18N
-        jLabel5.setText("jLabel5");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 580, 490));
+        getContentPane().add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 210, 160, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -95,6 +100,10 @@ public class Usuariojf extends javax.swing.JFrame {
     private void txtusuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtusuarioActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtusuarioActionPerformed
+
+    private void btnaceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnaceptarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnaceptarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -138,10 +147,10 @@ public class Usuariojf extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabelcontraseña;
+    private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextPane jTextPane1;
-    private javax.swing.JTextField txtcontraseña;
     private javax.swing.JTextField txtusuario;
     // End of variables declaration//GEN-END:variables
 }
