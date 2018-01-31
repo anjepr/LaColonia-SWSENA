@@ -65,7 +65,6 @@ public class Usuariojf extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Tunga", 3, 12)); // NOI18N
         jLabel4.setText("CONTRASEÑA");
 
-        jTextField1.setText("jTextField1");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
