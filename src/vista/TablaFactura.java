@@ -44,10 +44,10 @@ public class TablaFactura extends javax.swing.JFrame {
         jComboBox3 = new javax.swing.JComboBox();
         jLabel6 = new javax.swing.JLabel();
         txtsubtotal = new javax.swing.JTextField();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
+        btnnueva = new javax.swing.JButton();
+        btnregistrar = new javax.swing.JButton();
+        btnimprimir = new javax.swing.JButton();
+        btnsalir = new javax.swing.JButton();
         jLabel9 = new javax.swing.JLabel();
         txttotalpagar = new javax.swing.JTextField();
 
@@ -118,35 +118,35 @@ public class TablaFactura extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setForeground(new java.awt.Color(0, 153, 153));
-        jButton2.setText("NUEVA");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        btnnueva.setForeground(new java.awt.Color(0, 153, 153));
+        btnnueva.setText("NUEVA");
+        btnnueva.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                btnnuevaActionPerformed(evt);
             }
         });
 
-        jButton3.setForeground(new java.awt.Color(0, 51, 204));
-        jButton3.setText("REGISTRAR");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        btnregistrar.setForeground(new java.awt.Color(0, 51, 204));
+        btnregistrar.setText("REGISTRAR");
+        btnregistrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                btnregistrarActionPerformed(evt);
             }
         });
 
-        jButton4.setForeground(new java.awt.Color(0, 153, 51));
-        jButton4.setText("IMPRIMIR");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        btnimprimir.setForeground(new java.awt.Color(0, 153, 51));
+        btnimprimir.setText("IMPRIMIR");
+        btnimprimir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                btnimprimirActionPerformed(evt);
             }
         });
 
-        jButton5.setForeground(new java.awt.Color(255, 0, 0));
-        jButton5.setText("SALIR");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        btnsalir.setForeground(new java.awt.Color(255, 0, 0));
+        btnsalir.setText("SALIR");
+        btnsalir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                btnsalirActionPerformed(evt);
             }
         });
 
@@ -198,13 +198,13 @@ public class TablaFactura extends javax.swing.JFrame {
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(60, 60, 60)
-                .addComponent(jButton2)
+                .addComponent(btnnueva)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton3)
+                .addComponent(btnregistrar)
                 .addGap(74, 74, 74)
-                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnimprimir, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(83, 83, 83)
-                .addComponent(jButton5)
+                .addComponent(btnsalir)
                 .addGap(73, 73, 73))
         );
         layout.setVerticalGroup(
@@ -233,10 +233,10 @@ public class TablaFactura extends javax.swing.JFrame {
                     .addComponent(txttotalpagar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 55, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton2)
-                    .addComponent(jButton3)
-                    .addComponent(jButton4)
-                    .addComponent(jButton5))
+                    .addComponent(btnnueva)
+                    .addComponent(btnregistrar)
+                    .addComponent(btnimprimir)
+                    .addComponent(btnsalir))
                 .addGap(51, 51, 51))
         );
 
@@ -263,21 +263,21 @@ public class TablaFactura extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtsubtotalActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void btnsalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnsalirActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_btnsalirActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void btnnuevaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnnuevaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_btnnuevaActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void btnregistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnregistrarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_btnregistrarActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void btnimprimirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnimprimirActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_btnimprimirActionPerformed
 
     private void txttotalpagarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txttotalpagarActionPerformed
         // TODO add your handling code here:
@@ -319,11 +319,11 @@ public class TablaFactura extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnimprimir;
+    private javax.swing.JButton btnnueva;
+    private javax.swing.JButton btnregistrar;
+    private javax.swing.JButton btnsalir;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
     private javax.swing.JComboBox jComboBox1;
     private javax.swing.JComboBox jComboBox2;
     private javax.swing.JComboBox jComboBox3;
