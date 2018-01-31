@@ -28,8 +28,8 @@ public class GestionEmpleado {
     }
     
     public Boolean existe(Integer identificacion){
-        for(int i=0; i <datos.size(); i++){
-            if(datos.get(i).getnumident()==(identificacion)){
+        for (Empleado dato : datos) {
+            if (dato.getnumident() == (identificacion)) {
                 return true;
             }
         }

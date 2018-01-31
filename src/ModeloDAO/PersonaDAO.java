@@ -30,6 +30,16 @@ public class PersonaDAO implements PersonaDAOInterface{
     public PersonaDAO Buscar(Integer identificacion) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+    @Override
+    public Boolean Registrar(PersonaDAOImpl pd) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean Actualizar(PersonaDAOImpl pd) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
 }

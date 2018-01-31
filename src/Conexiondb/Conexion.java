@@ -15,7 +15,7 @@ import java.util.logging.Logger;
  *
  * @author fragata
  */
-public class Conexion {
+public final class Conexion {
 
     private static final String USER = "root";
     private static final String PASSWORD = "";
