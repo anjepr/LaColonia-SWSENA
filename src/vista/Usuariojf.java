@@ -29,13 +29,13 @@ public class Usuariojf extends javax.swing.JFrame {
 
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextPane1 = new javax.swing.JTextPane();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        btnaceptar = new javax.swing.JButton();
+        btncancelar = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
+        txtusuario = new javax.swing.JTextField();
+        txtcontraseña = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
 
@@ -44,18 +44,18 @@ public class Usuariojf extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton1.setForeground(new java.awt.Color(0, 153, 0));
-        jButton1.setText("ACEPTAR");
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(63, 368, -1, -1));
+        btnaceptar.setForeground(new java.awt.Color(0, 153, 0));
+        btnaceptar.setText("ACEPTAR");
+        getContentPane().add(btnaceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(63, 368, -1, -1));
 
-        jButton2.setForeground(new java.awt.Color(255, 0, 0));
-        jButton2.setText("CANCELAR");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        btncancelar.setForeground(new java.awt.Color(255, 0, 0));
+        btncancelar.setText("CANCELAR");
+        btncancelar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                btncancelarActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 368, -1, -1));
+        getContentPane().add(btncancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 368, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Tunga", 3, 14)); // NOI18N
         jLabel2.setText("USUARIO");
@@ -70,13 +70,13 @@ public class Usuariojf extends javax.swing.JFrame {
         jLabel4.setText("CONTRASEÑA");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(44, 221, 76, -1));
 
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        txtusuario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                txtusuarioActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(136, 159, 151, -1));
-        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(136, 220, 151, -1));
+        getContentPane().add(txtusuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(136, 159, 151, -1));
+        getContentPane().add(txtcontraseña, new org.netbeans.lib.awtextra.AbsoluteConstraints(136, 220, 151, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/vista/santam.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 0, 290, 490));
@@ -88,13 +88,13 @@ public class Usuariojf extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void btncancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btncancelarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_btncancelarActionPerformed
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void txtusuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtusuarioActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_txtusuarioActionPerformed
 
     /**
      * @param args the command line arguments
@@ -132,16 +132,16 @@ public class Usuariojf extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
+    private javax.swing.JButton btnaceptar;
+    private javax.swing.JButton btncancelar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
     private javax.swing.JTextPane jTextPane1;
+    private javax.swing.JTextField txtcontraseña;
+    private javax.swing.JTextField txtusuario;
     // End of variables declaration//GEN-END:variables
 }
