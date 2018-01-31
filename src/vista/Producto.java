@@ -73,17 +73,11 @@ public class Producto extends javax.swing.JFrame {
         jLabel7.setForeground(new java.awt.Color(153, 0, 153));
         jLabel7.setText("  DESCRIPCION");
 
-        jTextField4.setText("jTextField4");
-
         jLabel8.setForeground(new java.awt.Color(153, 0, 153));
         jLabel8.setText("   FABRICANTE");
 
-        jTextField5.setText("jTextField5");
-
         jLabel9.setForeground(new java.awt.Color(153, 0, 153));
         jLabel9.setText("REGISTRO INVIMA");
-
-        jTextField6.setText("jTextField6");
 
         jButton2.setForeground(new java.awt.Color(153, 0, 153));
         jButton2.setText("REGISTRAR");
@@ -101,8 +95,6 @@ public class Producto extends javax.swing.JFrame {
 
         jLabel1.setForeground(new java.awt.Color(153, 153, 153));
         jLabel1.setText("PRECIO PRODUCTO");
-
-        jTextField7.setText("jTextField7");
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/vista/ceromancia.gif"))); // NOI18N
 
