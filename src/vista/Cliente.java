@@ -46,12 +46,12 @@ public class Cliente extends javax.swing.JFrame {
         txttelefonos = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTablecodigonombreapellidosexo = new javax.swing.JTable();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
+        btnnuevo = new javax.swing.JButton();
+        btnregistrar = new javax.swing.JButton();
+        btneliminar = new javax.swing.JButton();
+        btnimprimir = new javax.swing.JButton();
+        btncancelar = new javax.swing.JButton();
+        btnsalir = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -96,17 +96,28 @@ public class Cliente extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTablecodigonombreapellidosexo);
 
-        jButton1.setText("jButton1");
+        btnnuevo.setForeground(new java.awt.Color(0, 153, 153));
+        btnnuevo.setText("NUEVO");
+        btnnuevo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnnuevoActionPerformed(evt);
+            }
+        });
 
-        jButton2.setText("jButton2");
+        btnregistrar.setForeground(new java.awt.Color(0, 0, 204));
+        btnregistrar.setText("REGISTRAR");
 
-        jButton3.setText("jButton3");
+        btneliminar.setForeground(new java.awt.Color(255, 102, 102));
+        btneliminar.setText("ELIMINAR");
 
-        jButton4.setText("jButton4");
+        btnimprimir.setForeground(new java.awt.Color(102, 204, 0));
+        btnimprimir.setText("IMPRIMIR");
 
-        jButton5.setText("jButton5");
+        btncancelar.setForeground(new java.awt.Color(255, 51, 102));
+        btncancelar.setText("CANCELAR");
 
-        jButton6.setText("jButton6");
+        btnsalir.setForeground(new java.awt.Color(255, 0, 0));
+        btnsalir.setText("SALIR");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -152,17 +163,17 @@ public class Cliente extends javax.swing.JFrame {
                         .addGap(19, 19, 19)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton1)
+                                .addComponent(btnnuevo)
                                 .addGap(28, 28, 28)
-                                .addComponent(jButton2)
+                                .addComponent(btnregistrar)
                                 .addGap(31, 31, 31)
-                                .addComponent(jButton3)
+                                .addComponent(btneliminar)
                                 .addGap(31, 31, 31)
-                                .addComponent(jButton4)
+                                .addComponent(btnimprimir)
                                 .addGap(33, 33, 33)
-                                .addComponent(jButton5)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 30, Short.MAX_VALUE)
-                                .addComponent(jButton6))
+                                .addComponent(btncancelar)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(btnsalir))
                             .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 561, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap())
         );
@@ -203,12 +214,12 @@ public class Cliente extends javax.swing.JFrame {
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(42, 42, 42)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
-                    .addComponent(jButton2)
-                    .addComponent(jButton3)
-                    .addComponent(jButton4)
-                    .addComponent(jButton5)
-                    .addComponent(jButton6))
+                    .addComponent(btnnuevo)
+                    .addComponent(btnregistrar)
+                    .addComponent(btneliminar)
+                    .addComponent(btnimprimir)
+                    .addComponent(btncancelar)
+                    .addComponent(btnsalir))
                 .addContainerGap(56, Short.MAX_VALUE))
         );
 
@@ -218,6 +229,10 @@ public class Cliente extends javax.swing.JFrame {
     private void txtemailActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtemailActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtemailActionPerformed
+
+    private void btnnuevoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnnuevoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnnuevoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -255,12 +270,12 @@ public class Cliente extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
+    private javax.swing.JButton btncancelar;
+    private javax.swing.JButton btneliminar;
+    private javax.swing.JButton btnimprimir;
+    private javax.swing.JButton btnnuevo;
+    private javax.swing.JButton btnregistrar;
+    private javax.swing.JButton btnsalir;
     private javax.swing.JComboBox jComboBoxmasculinofemenino;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
