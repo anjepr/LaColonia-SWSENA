@@ -77,6 +77,10 @@ public class Persona {
     public void setTipoIdent(String tipoIdent) {
         this.tipoIdent = tipoIdent;
     }
+
+    public void registrarPersona(Persona p) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
         
     
     

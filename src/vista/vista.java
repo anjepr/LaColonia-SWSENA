@@ -168,7 +168,7 @@ public class vista extends javax.swing.JFrame {
         p.setNombre2(txtNombre2.getText());
         p.setApellido1(txtApellido1.getText());
         p.setApellido2(txtApellido2.getText());
-        gp.registrarPersona(p);
+        p.registrarPersona(p);
         
     }
     /**

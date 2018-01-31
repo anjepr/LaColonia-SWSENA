@@ -48,7 +48,7 @@ public class Factura  extends RepLegal {
         this.subtotal = subtotal;
         this.totalpagar = totalpagar;
 
-    public int getidfactura() {
+    public int Factura() {
         return idfactura;
     }
 

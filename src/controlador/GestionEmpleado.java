@@ -17,8 +17,8 @@ public class GestionEmpleado {
     
     public GestionEmpleado(){
         datos=new ArrayList<>();
-        Empleado e1 = new Empleado(1,"Anjelly","Katalina","Pelaez","Colmenares","Famisanar" ,1);
-        Empleado e2 = new Empleado(2,"Edward","Adrian","Cabezas","Pelaez","Famisanar", 2);
+        Empleado e1 = new Empleado(1,"Anjelly","Katalina","Pelaez","Colmenares","Restrepo" ,1);
+        Empleado e2 = new Empleado(2,"Edward","Adrian","Cabezas","Pelaez","Famisanar",2);
         datos.add(e1);
         datos.add(e2);
     }
