@@ -76,6 +76,10 @@ public class Empleado {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public Integer getnumident() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
 
